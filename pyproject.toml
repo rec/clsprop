@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "clsprop"
+version = "0.1.0"
+description = "🏫 A decorator for class properties 🏫"
+authors = ["Tom Ritchford <tom@swirly.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
