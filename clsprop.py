@@ -1,7 +1,10 @@
 """
 🏫 `clsprop`: A decorator for class properties 🏫
 
-Works just like @property for classes, except deletions don't work.
+Works just like @property for classes, except deleters don't work (and are
+perhaps impossible).
+
+Inspired by https://stackoverflow.com/a/39542816/43839
 
 ## Example
 
@@ -33,11 +36,6 @@ import sys
 
 
 class clsprop(property):
-    """
-    Just like property but for class objects.
-
-    From https://stackoverflow.com/a/39542816/43839
-    """
     def __get__(self, obj, objtype=None):
         return super().__get__(objtype)
 
@@ -51,3 +49,4 @@ class clsprop(property):
 
 
 sys.modules[__name__] = clsprop
+clsprop.__doc__ = __doc__

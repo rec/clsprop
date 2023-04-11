@@ -1,4 +1,4 @@
-# 🏫: `clsprop`: A decorator for class properties 🏫
+# 🏫: `clsprop`: Just like @property but for classes 🏫
 
 ::: clsprop
 

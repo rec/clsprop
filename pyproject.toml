@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "clsprop"
 version = "0.1.0"
-description = "🏫 A decorator for class properties 🏫"
+description = "🏫 Just like @property but for classes 🏫"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 license = "MIT"
 readme = "README.md"

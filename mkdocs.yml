@@ -1,4 +1,4 @@
-site_name: '🏫: `clsprop`: A decorator for class properties 🏫'
+site_name: '🏫: `clsprop`: Just like @property but for classes 🏫'
 
 theme:
   name: material
