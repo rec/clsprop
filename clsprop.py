@@ -14,6 +14,8 @@ class clsprop(property):
         super(clsprop, self).__set__(type(obj), value)
 
     def __delete__(self, obj):
+        # This is never called; there seems to be no way to make
+        # this work.
         super(clsprop, self).__delete__(type(obj))
 
 
