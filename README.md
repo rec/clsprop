@@ -1,6 +1,8 @@
 Works just like @property for classes, except deleters don't work (and are
 perhaps impossible).
 
+Inspired by https://stackoverflow.com/a/39542816/43839
+
 ## Example
 
     class Full:
