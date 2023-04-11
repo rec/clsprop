@@ -5,6 +5,8 @@ Inspired by https://stackoverflow.com/a/39542816/43839
 
 ## Example
 
+    import clsprop
+
     class Full:
         _name = 'fool'
 
