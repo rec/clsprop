@@ -5,6 +5,9 @@ description = "🏫 Just like @property but for classes 🏫"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/rec/clsprop"
+homepage = "https://github.com/rec/clsprop"
+documentation = "https://rec.github.io/clsprop"
 
 [tool.poetry.dependencies]
 python = ">=3.8"
