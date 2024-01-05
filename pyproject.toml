@@ -13,8 +13,9 @@ documentation = "https://rec.github.io/clsprop"
 python = ">=3.8"
 
 [tool.poetry.group.dev.dependencies]
-flake8 = "*"
-pytest = "^7.3.0"
+ruff = "*"
+pytest = "*"
+mypy = "*"
 
 [build-system]
 requires = ["poetry-core"]
