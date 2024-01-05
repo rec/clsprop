@@ -50,5 +50,6 @@ class clsprop(property):
         super().__delete__(type(obj))
 
 
-sys.modules[__name__] = clsprop
+sys.modules[__name__] = clsprop  # type: ignore[assignment]
+clsprop.clsprop = clsprop  # type: ignore[attr-defined]
 clsprop.__doc__ = __doc__
