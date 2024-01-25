@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "clsprop"
-version = "1.3.0"
+version = "1.3.1"
 description = "🏫 Just like @property but for classes 🏫"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 license = "MIT"
