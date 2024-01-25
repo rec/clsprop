@@ -1,5 +1,6 @@
-import clsprop
 import pytest
+
+import clsprop
 
 BUG_FIXED = False
 

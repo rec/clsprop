@@ -35,16 +35,17 @@ Inspired by https://stackoverflow.com/a/39542816/43839
 """
 
 import sys
+import typing as t
 
 
 class clsprop(property):
-    def __get__(self, obj, objtype=None):
+    def __get__(self, obj: t.Any, objtype: t.Any = None) -> t.Any:
         return super().__get__(objtype)
 
-    def __set__(self, obj, value):
+    def __set__(self, obj: t.Any, value: t.Any) -> None:
         super().__set__(type(obj), value)
 
-    def __delete__(self, obj):
+    def __delete__(self, obj: t.Any) -> None:
         # This is never called; there seems to be no way to make
         # this work.
         super().__delete__(type(obj))
