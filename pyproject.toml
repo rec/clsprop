@@ -1,6 +1,6 @@
 [project]
 name = "clsprop"
-version = "1.4.0"
+version = "1.5.0"
 description = "🏫 Just like @property but for classes 🏫"
 authors = [{ name = "Tom Ritchford", email = "tom@swirly.com" }]
 requires-python = ">=3.10"
@@ -32,7 +32,7 @@ quote-style = "single"
 
 [tool.poetry]
 name = "clsprop"
-version = "0.1.0"
+version = "1.5.0"
 description = "🏫 Just like @property but for classes 🏫"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 readme = "README.md"
